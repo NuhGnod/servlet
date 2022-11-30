@@ -1,8 +1,9 @@
-package hello.servlet.web.frontcontroller.v1;
+package hello.servlet.web.frontcontroller.v1.controller;
 
+import hello.servlet.web.frontcontroller.v1.ControllerV1;
+import hello.servlet.web.frontcontroller.v1.MemberSaveControllerV1;
 import hello.servlet.web.frontcontroller.v1.controller.MemberFormControllerV1;
 import hello.servlet.web.frontcontroller.v1.controller.MemberListControllerV1;
-import hello.servlet.web.frontcontroller.v1.controller.MemberSaveControllerV1;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,7 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.logging.Logger;
 
 
 @WebServlet(name = "frontControllerServletV1", urlPatterns = "/front-controller/v1/*")
